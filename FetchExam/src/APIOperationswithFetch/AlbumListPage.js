@@ -22,7 +22,7 @@ function AlbumListPage() {
     
     const getAlbums = (myAbortController) => {
         
-        fetch('https://jsonplaceholder.typicode.com/albums',{signal:myAbortController.signal})
+        fetch('https://jsonplaceholder.typicode.com/albums',{ signal: myAbortController.signal })
         .then(response => response.json())
         .then(data => {
             setTimeout(() => {
