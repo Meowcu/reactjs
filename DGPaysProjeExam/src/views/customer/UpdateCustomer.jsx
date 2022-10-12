@@ -59,7 +59,7 @@ function UpdateCustomer() {
             name='id'
             rules={[{ required: true, message: 'Please enter id!' }]}
           >
-            <Input />
+            <Input disabled={true} />
           </Form.Item>
         </Col>
 

@@ -37,27 +37,27 @@ function Favorites() {
         },
         {
             title: 'Street',
-            dataIndex: 'street'
+            dataIndex: ['address','street']
         },
         {
             title: 'City',
-            dataIndex: 'city'
+            dataIndex: ['address','city']
         },
         {
             title: 'Region',
-            dataIndex: 'region'
+            dataIndex: ['address','region']
         },
         {
             title: 'Postal Code',
-            dataIndex: 'postalCode'
+            dataIndex: ['address','postalCode']
         },
         {
             title: 'Country',
-            dataIndex: 'country'
+            dataIndex: ['address','country']
         },
         {
             title: 'Phone',
-            dataIndex: 'phone'
+            dataIndex: ['address','phone']
         },
         {
             title: 'Remove',
